@@ -10,7 +10,7 @@ class Ball {
   
       this.body = Bodies.circle(x, y, this.r, options);
   
-      this.image = loadImage("/images/basketball.png");
+      this.image = loadImage("/Images/basketball.png");
     
       this.trajectory = [];
       World.add(world, this.body);
